@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Google</title> 
+    </head>
+
+    <body> 
+        <header>
+            <nav id="navbar">
+				        <ul id="navlinks">
+                    <li id="email">
+                        <a href="#">
+                            Gmail
+                        </a>
+                    </li>
+                    <li id="images">
+                        <a href="#">
+                            Images
+                        </a>
+                    </li>
+                    <li id="menu">
+                        <a href="#">
+                            <img src="http://icon-library.com/images/google-menu-icon/google-menu-icon-2.jpg" alt="" id="menu_icon"/>
+                        </a>
+                    </li>
+                    <li id="connexion">
+                        <label action="/action_page.php" for="connexion">
+                            <button type="button" id="connexion_btm">Connexion</button>
+                        </label>
+                    </li>
+				        </ul>
+            </nav>
+        </header>
+					
+					
+        <main id="main">
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="logo Google" id="google">
+            </div>
+									
+            <div id="champs_btns">
+                <form id="searchbar">
+                    <div id="searchB">
+                        <div id="barloupe">
+                            <img src="https://lh3.googleusercontent.com/proxy/kpCJ44hbrrhZR88h0e8qjpFSCy2dHXCN_-8tLNPm-M9qlbYUpiUzDtedwGRnKID4I-i0nv3msMJ6qZh5s6v32fwnJsgXueEh1OMXs-MemvyFF42klRrM9pozg84duYMX20NnEcl_3bBF3ITUwS6U55y6NV0A_0RFR6ghhzOahQFWI0Ud" alt="logo loupe" id="loupe">
+                            <label for="search">
+                                <input type="text" id="search" name="Search" placeholder="">
+                            </label>
+                        </div>
+                    </div>
+                    <div id="buttons">
+                        <label action="/action_page.php" for="recherche">
+                            <button type="submit" id="recherche">Recherche Google</button>
+                        </label>
+                        <label action="/action_page.php" for="chance">
+                            <button type="submit" id="chance">J'ai de la chance</button>
+                        </label>
+                    </div>
+                </form>
+            </div>
+			      <div>
+                <p id="langue">Google disponible en : <a href="#">English</a></p>
+            </div>
+        </main> 
+					
+					
+        <footer>
+            <div id="country">
+                France
+            </div>
+            <div id="about_legal">
+                <div id="about">
+                    <ul>
+                        <li><a href="">Publicité</a></li>
+                        <li><a href="">Entreprise</a></li>
+                        <li><a href="">À propos</a></li>
+                        <li><a href="">Comment fonctionne la recherche Google ?</a></li>
+                    </ul>
+                </div>
+                <div id="legal">
+                    <ul>
+                        <li><a href="#">Publication judiciaire</a></li>
+                        <li><a href="#">info consommateurs</a></li>
+                        <li><a href="#">Confidentialité</a></li>
+                        <li><a href="#">Conditions</a></li>
+                        <li><a href="#">Paramètres</a></li>
+                    </ul>
+                </div>
+			  </div>
+        </footer>
+    
+    </body>
+</html>
