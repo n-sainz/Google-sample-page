@@ -1,0 +1,290 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;	
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 30px;
+		
+}
+
+#navlinks {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    align-self: center;
+    font-size: 12px;
+}
+
+nav ul a {
+    padding: 8px;
+    color: black;
+    align-self: center;
+}
+
+#email {
+
+}
+
+#images {
+
+}
+
+#menu {
+
+}
+
+#menu_icon {
+    width: 23px;
+    height: auto;
+}
+
+#connexion {
+
+}
+
+#connexion_btn {
+    background-color: rgb(38, 130, 255); /* Green */
+    border: none;
+    color: white;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+#main {
+    height: 75vh;
+    padding-top: 8%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+		
+}
+
+#google {
+    width: 240px;
+    height: auto;
+}
+
+#champs_btns {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#searchbar {
+    display: block;
+    justify-content: center;
+}
+
+#searchB {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#searchB:hover {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.19), 0 2px 2px rgba(0,0,0,0.23);
+}
+
+#barloupe {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#loupe {
+    width: 20px;
+    height: auto;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#search {
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    outline-style: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;    
+    width: 350px;
+    margin: 20px;
+}
+
+#recherche {
+    background-color: #f2f2f2;
+    border: none;
+    color: grey;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+#recherche:hover {
+    background-color: #f2f2f2;
+    border: none;
+    color: grey;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+#chance {
+    background-color: #f2f2f2;
+    border: none;
+    color: grey;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+#chance:hover {
+    background-color: #f2f2f2;
+    border: none;
+    color: grey;
+    width: 130px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px 2px;
+    border-radius: 2px;
+}
+
+#langue {
+    font-size: 12px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom:0;
+}
+
+#country {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    color: grey;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid rgb(225, 225, 225);
+}
+
+#about_legal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#about {
+    justify-self: left;
+    height: auto;
+    font-size: 12px;
+}
+
+#about ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#about ul li {
+	list-style-type: none;
+}
+
+#about ul li a {
+    padding-right: 10px;
+    color: grey;
+}
+
+#legal {
+    justify-self: right;
+    margin-right: 30px;
+    height: auto;
+    font-size: 12px;
+}
+
+#legal ul {
+	display: flex;
+}
+
+#legal ul li {
+	list-style-type: none;
+}
+
+#legal ul li a {
+	padding-left: 10px;
+	color: grey;
+}
+  
+p {
+    font-size: 18px;
+	text-align: center;
+}
+  
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    #about_legal {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+}
